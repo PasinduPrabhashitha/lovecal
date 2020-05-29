@@ -4,7 +4,7 @@ function names(){
      var crushName = document.getElementById("secondname").value
      
      document.getElementById("firstname").required = true;
-    document.getElementById("firstname").required = true;
+    document.getElementById("secondname").required = true;
 
      var element = document.getElementById("love-text")
 
