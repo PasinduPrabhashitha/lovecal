@@ -2,6 +2,9 @@ function names(){
     var randomNumber = Math.floor(Math.random() * 100)+1
      var yourName = document.getElementById("firstname").value
      var crushName = document.getElementById("secondname").value
+     
+     document.getElementById("firstname").required = true;
+    document.getElementById("firstname").required = true;
 
      var element = document.getElementById("love-text")
 
